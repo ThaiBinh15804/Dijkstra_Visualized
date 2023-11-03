@@ -5,16 +5,15 @@
 }
 
 body {
-  background-color: #e0e0e0 !important;
+  background-color: #ffffff !important;
 }
 
 .board {
   width: 40vw;
   height: 40vw;
   background-color: #ffffff;
-  border-radius: 25px;
-  background: linear-gradient(145deg, #f0f0f0, #cacaca);
-  box-shadow: 25px 25px 50px #bebebe, -25px -25px 50px #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #86eae880, -5px -5px 10px #98e2f777;
   overflow: hidden;
 }
 
@@ -75,12 +74,41 @@ body {
   width: 40vw;
   height: 40vw;
   border-radius: 25px;
-  background: #e0e0e0;
-  box-shadow: inset 25px 25px 50px #bebebe, inset -25px -25px 50px #ffffff;
+  background: #fff;
+  box-shadow: 5px 5px 10px #86eae880, -5px -5px 10px #98e2f777;
+  color: #13538A;
 }
 
-.footer {
-  color: #ffffff;
+.btn-primary-color {
+  background-color: #2cc9f0;
+  font-weight: 500;
+  color: #fff;
+}
+
+.btn-primary-color:hover {
+  color: #fff;
+  background-color: #43d0f4;
+}
+
+.btn-primary-color:active {
+  scale: 0.98;
+  box-shadow: 0px 0px 10px #00000025;
+}
+
+.btn-outline-primary-color {
+  background-color: #fff;
+  color: #13538A;
+  border: 1px solid #37C9EF;
+}
+
+.btn-outline-primary-color:hover {
+  color: #fff;
+  background-color: #43d0f4;
+}
+
+.btn-outline-primary-color:active {
+  scale: 0.98;
+  box-shadow: 0px 0px 10px #00000025;
 }
 
 .screen {
@@ -91,8 +119,9 @@ body {
 
 .title {
   border-radius: 20px;
-  background: linear-gradient(145deg, #cacaca, #f0f0f0);
-  box-shadow: 11px 11px 27px #c5c5c5, -11px -11px 27px #fbfbfb;
+  color: #ffffff;
+  background: linear-gradient(145deg, #86EAE9, #449eec);
+  /* box-shadow: 11px 11px 27px #c5c5c5, -11px -11px 27px #fbfbfb; */
 }
 
 .card {
